@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/card/card",
+    "pages/news/news",
+    "pages/menber/menber",
+    "pages/goods/goods",
+    "pages/video/video",
+    "pages/community/community",
+    "pages/about/about",
+    "components/news-item/news-item",
+    "components/detail/detail",
+    "pages/goods-detail/goods-detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "黑马商城",
+    "navigationBarBackgroundColor": "#b50e30",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-active.png"
+      },
+      {
+        "text": "咨询",
+        "pagePath": "pages/news/news",
+        "iconPath": "static/icon/news.png",
+        "selectedIconPath": "static/icon/news-active.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/card/card",
+        "iconPath": "static/icon/news.png",
+        "selectedIconPath": "static/icon/news-active.png"
+      },
+      {
+        "text": "会员",
+        "pagePath": "pages/menber/menber",
+        "iconPath": "static/icon/member.png",
+        "selectedIconPath": "./static/icon/member-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,1 @@
+<view class="list"><good-list vue-id="576f0adc-1" goodsList="{{goodsList}}" data-event-opts="{{[['^goodsDetail',[['goDetail']]]]}}" bind:goodsDetail="__e" bind:__l="__l"></good-list><block wx:if="{{isShow}}"><view class="Prompt">------加载到底啦------</view></block></view>
